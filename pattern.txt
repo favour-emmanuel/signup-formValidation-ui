@@ -1,0 +1,10 @@
+email patter: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+
+email requirements: Must be a valid email addres
+
+
+password pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
+
+password requirements: Your password must be at least 6 characters
+                        as well as contain at least one
+                        uppercase, one lowercase, and one number.

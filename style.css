@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+}
+
+.box1{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    background: url(./assets/laptop-1205256_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ .divImg{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 00.3);
+}
+
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+}
+
+h3{
+    font-size: 22px;
+    color: #0229c4;
+    font-weight: 500;
+}
+
+form{
+    position: relative;
+    width: 300px;
+}
+
+form input{
+    width: 100%;
+    margin: 10px 0;
+    color: #292929;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #0229c4;
+    outline: none;
+    font-size: 18px;
+}
+
+.emailText,
+.passText{
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+    font-size: 14px;
+}
+
+label.valid .emailText,
+label.valid .passText{
+    color: #18bc18;
+}
+
+label.invalid .emailText,
+label.invalid .passText{
+    color: #f00;
+}
+
+label.valid::before,
+label.invalid::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 54px;
+    right: 5px;
+    z-index: 100;
+}
+
+label.valid::before{
+    background: url(./assets/icons8-check-48.png) no-repeat center /cover;
+}
+
+/* label.invalid::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 148px;
+    right: 5px;
+    z-index: 100;
+} */
+
+label.invalid::before{
+    background: url(./assets/icons8-warning-48.png) no-repeat center /cover;
+}
+
+.box2 button{
+    background-color: #0229c4;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.box2 button:hover{
+    background-color: #01209c;
+}
+
+.box2 p{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.box2 h4{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.box2 .toc{
+    margin-top: 20px;
+}
